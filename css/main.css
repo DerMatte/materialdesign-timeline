@@ -16,31 +16,31 @@ font-family: 'Dosis', sans-serif; */
 html,
 body {
     /*overflow-y: hidden;*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     margin: 0;
-    height: 100%;
+    width: 100%;
     font-size: 20px;
 }
 
 
 /* Navigation */
+
 nav {
     position: fixed;
     z-index: 999;
     top: 0;
     left: 0;
-    height: 3vh;
-    max-height: 5vh;
+    height: 3em;
+    max-height: 4em;
     width: 100%;
-
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
-
 }
 
 li {
@@ -73,8 +73,6 @@ li img {
 
 /* Navigation zuende */
 
-
-
 h1,
 h2 {
     margin: 0px;
@@ -87,19 +85,24 @@ div {
     margin: 0 auto;
     padding-top: 0;
     padding-bottom: 0;
-    width: 100%;
 }
 
-
-
 .text {
-    padding-left: 2em;
-    padding-right: 2em;
-    height: 95vh;
+
+    height: 100vh;
 }
 
 .stand {
     padding-top: 9em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.nix {
+    /* height: 5em; */
+}
+.welcome {
+    text-align: center;
 }
 
 #one {
@@ -147,4 +150,3 @@ footer {
     padding-top: 1em;
     height: 3em;
 }
-
