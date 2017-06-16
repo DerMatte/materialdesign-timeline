@@ -1,0 +1,141 @@
+/* @font-face {
+    font-family: prototype;
+    src: url(font/Prototype.ttf);
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Asul:400,700|Dosis|Merriweather:300,400|Raleway:200,300,400,600|Share+Tech|Ubuntu');
+
+/*
+font-family: 'Share Tech', sans-serif;
+font-family: 'Asul', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dosis', sans-serif; */
+
+html,
+body {
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    margin: 0;
+    height: 100%;
+    font-size: 20px;
+}
+
+
+/* Navigation */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    max-height: 4em;
+}
+
+li {
+    float: left;
+    margin: auto;
+    position: relative;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+li img {
+    width: 3em;
+    height: 3em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin: 0;
+}
+
+
+/* Navigation zuende */
+
+
+
+h1,
+h2 {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+div {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+
+
+.text {
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 100vh;
+}
+
+.stand {
+
+}
+
+#one {
+    background-color: #D9E6B8;
+    /*    #2EC78E;*/
+    height: 0;
+}
+
+.one {
+    background-color: #D9E6B8;
+    color: white;
+}
+
+#two {
+    background-color: #FF6445;
+    height: 0;
+}
+
+.two {
+    background-color: #FF6445;
+    color: white;
+}
+
+#three {
+    background-color: #DE831B;
+}
+
+.three {
+    background-color: #DE831B;
+    color: white;
+}
+
+#four {
+    background-color: #4E5152;
+}
+
+.four {
+    background-color: #4E5152;
+    color: white;
+}
+
+footer {
+    color: dimgrey;
+    text-align: center;
+    padding-top: 1em;
+    height: 3em;
+}
+
