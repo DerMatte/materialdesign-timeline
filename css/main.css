@@ -24,15 +24,23 @@ body {
 
 
 /* Navigation */
+nav {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 3vh;
+    max-height: 5vh;
+    width: 100%;
 
+}
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
-    position: sticky;
-    max-height: 4em;
+
 }
 
 li {
@@ -54,10 +62,11 @@ li a:hover {
 }
 
 li img {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     padding-top: 0.5em;
     padding-left: 0.5em;
+    padding-bottom: 0;
     margin: 0;
 }
 
@@ -86,11 +95,11 @@ div {
 .text {
     padding-left: 2em;
     padding-right: 2em;
-    height: 100vh;
+    height: 95vh;
 }
 
 .stand {
-
+    padding-top: 9em;
 }
 
 #one {
