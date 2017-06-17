@@ -19,7 +19,7 @@ body {
     /*overflow-x: hidden;*/
     margin: 0;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Share Tech', sans-serif;
 }
 
@@ -28,12 +28,12 @@ body {
 
 nav {
     position: fixed;
-    z-index: 999;
+    z-index: 5;
     top: 0;
     left: 0;
     height: 3em;
-    max-height: 4em;
     width: 100%;
+    font-size: 1.25em;
 }
 
 nav ul {
@@ -64,8 +64,8 @@ li a:hover {
 
 li img {
     width: auto;
-    max-height: 2em;
-/*  padding-top: 0.5em;
+    max-height: 3vh;
+    /*  padding-top: 0.5em;
     padding-left: 0.5em; */
     padding-bottom: 0;
 }
@@ -82,18 +82,15 @@ p {
 }
 
 .welcome p {
-
     padding-top: 0.5em;
     padding-bottom: 1em;
 }
 
-
-#startanker {
+/* #startanker {
     position: absolute;
     top: 0;
     left: 0;
-}
-
+} */
 
 div {
     position: relative;
@@ -101,7 +98,7 @@ div {
 }
 
 .text {
-    height: 100vh;
+    height: 97vh;
 }
 
 .stand {
@@ -139,12 +136,6 @@ div {
     opacity: 0.7;
 }
 
-
-
-
-
-
-
 #one {
     background-color: #D9E6B8;
     /*    #2EC78E;*/
@@ -154,7 +145,6 @@ div {
 .one {
     background-color: #D9E6B8;
     color: white;
-
 }
 
 #two {
