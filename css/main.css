@@ -20,6 +20,7 @@ body {
     margin: 0;
     width: 100%;
     font-size: 20px;
+    font-family: 'Share Tech', sans-serif;
 }
 
 
@@ -33,7 +34,6 @@ nav {
     height: 3em;
     max-height: 4em;
     width: 100%;
-    font-family: 'Merriweather', sans-serif;
 }
 
 nav ul {
@@ -63,12 +63,11 @@ li a:hover {
 }
 
 li img {
-    width: 2em;
-    height: 2em;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+    width: auto;
+    max-height: 2em;
+/*  padding-top: 0.5em;
+    padding-left: 0.5em; */
     padding-bottom: 0;
-    margin: 0;
 }
 
 
@@ -81,6 +80,20 @@ p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+
+.welcome p {
+
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+
+#startanker {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 div {
     position: relative;
@@ -119,12 +132,18 @@ div {
     top: 75%;
     left: 50%;
     padding-bottom: 0;
-    padding-top: 2em;
+    padding-top: 2.5em;
 }
 
 #pfeilunten:hover {
     opacity: 0.7;
 }
+
+
+
+
+
+
 
 #one {
     background-color: #D9E6B8;
@@ -135,6 +154,7 @@ div {
 .one {
     background-color: #D9E6B8;
     color: white;
+
 }
 
 #two {
