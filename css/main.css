@@ -33,6 +33,7 @@ nav {
     height: 3em;
     max-height: 4em;
     width: 100%;
+    font-family: 'Merriweather', sans-serif;
 }
 
 nav ul {
@@ -104,6 +105,10 @@ div {
 .welcome {
     text-align: center;
 }
+.welcome img {
+    width: 80%;
+
+}
 
 #one {
     background-color: #D9E6B8;
@@ -117,12 +122,13 @@ div {
 }
 
 #two {
-    background-color: #FF6445;
+    background-color: #f47264;
+        /*#FF6445*/
     height: 0;
 }
 
 .two {
-    background-color: #FF6445;
+    background-color: #f47264;
     color: white;
 }
 
