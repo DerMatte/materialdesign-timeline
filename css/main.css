@@ -16,7 +16,7 @@ font-family: 'Dosis', sans-serif; */
 html,
 body {
     /*overflow-y: hidden;*/
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     margin: 0;
     width: 100%;
     font-size: 16px;
@@ -50,7 +50,7 @@ li {
     position: relative;
 }
 
-li a {
+.nichtbild {
     display: inline-block;
     color: black;
     text-align: center;
@@ -58,16 +58,21 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.nichtbild:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 li img {
     width: auto;
-    max-height: 3vh;
-    /*  padding-top: 0.5em;
+    /*max-height: 3vh;
+    padding-top: 0.5em;
     padding-left: 0.5em; */
     padding-bottom: 0;
+    padding-top: 0.75em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    margin: 0;
+    height: 2.75em;
 }
 
 
@@ -86,6 +91,7 @@ p {
     padding-bottom: 1em;
 }
 
+
 /* #startanker {
     position: absolute;
     top: 0;
@@ -98,7 +104,7 @@ div {
 }
 
 .text {
-    height: 97vh;
+    height: 90vh;
 }
 
 .stand {
