@@ -1,2 +1,2 @@
 # materialdesign-timeline
-material website with a time bar
+material website with a vertical time bar

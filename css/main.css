@@ -85,6 +85,9 @@ p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+h2 {
+    font-size: 3em;
+}
 
 .welcome p {
     padding-top: 0.5em;
@@ -135,56 +138,123 @@ div {
     top: 75%;
     left: 50%;
     padding-bottom: 0;
-    padding-top: 2.5em;
+    padding-top: 8em;
 }
 
 #pfeilunten:hover {
     opacity: 0.7;
 }
 
+
+/*Abschnitt eins*/
+
+
+.one img {
+    float: right;
+    height: 40em;
+    max-width: 80vw;
+    max-height: 70vh;
+    padding-top: 10em;
+    padding-left: 2em;
+}
+.one p {
+    font-size: 2em;
+    padding-top: 6em;
+
+}
+/*Abschnitt eins Ende*/
+
+
+/*Abschnitt zwei*/
+
+
+.two img {
+    height: 30em;
+    max-width: 50vw;
+    max-height: 50vh;
+    padding-top: 3em;
+    display: block;
+    margin: 0 auto;
+}
+.two p {
+    font-size: 2em;
+    padding-top: 2em;
+    float: left;
+
+}
+/*Abschnitt zwei Ende*/
+
+.three img {
+    height: 30em;
+    max-width: 50vw;
+    max-height: 50vh;
+    padding-top: 3em;
+    display: block;
+    margin: 0 auto;
+}
+.three p {
+    font-size: 2em;
+    padding-top: 2em;
+    float: left;
+}
+
+/* Abschnitt drei Ende*/
 #one {
-    background-color: #D9E6B8;
+    background-color: #E0B479;
+        /*#D9E6B8;*/
     /*    #2EC78E;*/
     height: 0;
 }
 
 .one {
-    background-color: #D9E6B8;
+    background-color: #E0B479;
     color: white;
 }
 
 #two {
-    background-color: #f47264;
+    background-color: #F7A844;
+        /*#f47264*/
     /*#FF6445*/
     height: 0;
 }
 
 .two {
-    background-color: #f47264;
+    background-color: #F7A844;
     color: white;
 }
 
 #three {
-    background-color: #DE831B;
+    background-color: #FA6C53;
+        /*#DE831B*/
 }
 
 .three {
-    background-color: #DE831B;
+    background-color: #FA6C53;
     color: white;
 }
 
 #four {
-    background-color: #4E5152;
+    background-color: #FC5854;
+        /*#4E5152*/
 }
 
 .four {
-    background-color: #4E5152;
+    background-color: #FC5854;
     color: white;
 }
+#five {
+    background-color: #6E7059;
+        /*#4E5152*/
+}
 
+.five {
+    background-color: #6E7059;
+    color: white;
+}
 footer {
     color: dimgrey;
     text-align: center;
     padding-top: 1em;
     height: 3em;
 }
+
