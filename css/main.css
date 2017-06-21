@@ -64,9 +64,6 @@ li {
 
 li img {
     width: auto;
-    /*max-height: 3vh;
-    padding-top: 0.5em;
-    padding-left: 0.5em; */
     padding-bottom: 0;
     padding-top: 0.75em;
     padding-left: 0.75em;
@@ -85,21 +82,15 @@ p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+
 h2 {
     font-size: 3em;
 }
 
 .welcome p {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
-
-
-/* #startanker {
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
 
 div {
     position: relative;
@@ -117,7 +108,9 @@ div {
 }
 
 .nix {
-    /* height: 5em; */
+    /* height: 5em;
+    Abstand für evtl. Video im Hintergrund!
+    */
 }
 
 .welcome {
@@ -148,7 +141,6 @@ div {
 
 /*Abschnitt eins*/
 
-
 .one img {
     float: right;
     height: 40em;
@@ -157,51 +149,116 @@ div {
     padding-top: 10em;
     padding-left: 2em;
 }
+
 .one p {
     font-size: 2em;
     padding-top: 6em;
-
 }
+
+
 /*Abschnitt eins Ende*/
 
 
 /*Abschnitt zwei*/
 
-
 .two img {
-    height: 30em;
-    max-width: 50vw;
+
     max-height: 50vh;
     padding-top: 3em;
     display: block;
     margin: 0 auto;
 }
+
 .two p {
     font-size: 2em;
     padding-top: 2em;
     float: left;
-
 }
+
+
 /*Abschnitt zwei Ende*/
 
 .three img {
     height: 30em;
-    max-width: 50vw;
     max-height: 50vh;
     padding-top: 3em;
     display: block;
     margin: 0 auto;
 }
+
 .three p {
     font-size: 2em;
     padding-top: 2em;
     float: left;
 }
 
+
 /* Abschnitt drei Ende*/
+
+.four img {
+    height: 30em;
+    max-height: 50vh;
+    padding-top: 3em;
+    display: block;
+    margin: 0 auto;
+}
+
+.four p {
+    font-size: 2em;
+    padding-top: 2em;
+    float: left;
+}
+
+
+/* Abschnitt vier Ende*/
+
+.five img {
+    height: 30em;
+    max-height: 50vh;
+    padding-top: 3em;
+    display: block;
+    margin: 0 auto;
+}
+
+.five p {
+    font-size: 2em;
+    padding-top: 2em;
+    float: left;
+}
+
+
+/* Abschnitt fuenf Ende*/
+.six {
+    height: 50vh;
+}
+
+.six p {
+    font-size: 2em;
+    padding-top: 2em;
+    float: left;
+}
+
+
+/* Abschnitt sechs Ende*/
+
+.seven {
+    height: 50vh;
+}
+.seven h2 {
+    padding-top: 1em;
+}
+.seven p {
+    font-size: 2em;
+    padding-top: 2em;
+    float: left;
+}
+
+
+/* Abschnitt sieben Ende*/
+
 #one {
     background-color: #E0B479;
-        /*#D9E6B8;*/
+    /*#D9E6B8;*/
     /*    #2EC78E;*/
     height: 0;
 }
@@ -213,7 +270,7 @@ div {
 
 #two {
     background-color: #F7A844;
-        /*#f47264*/
+    /*#f47264*/
     /*#FF6445*/
     height: 0;
 }
@@ -225,7 +282,7 @@ div {
 
 #three {
     background-color: #FA6C53;
-        /*#DE831B*/
+    /*#DE831B*/
 }
 
 .three {
@@ -235,22 +292,28 @@ div {
 
 #four {
     background-color: #FC5854;
-        /*#4E5152*/
+    /*#4E5152*/
 }
 
 .four {
     background-color: #FC5854;
     color: white;
 }
+
 #five {
     background-color: #6E7059;
-        /*#4E5152*/
+    /*#4E5152*/
 }
 
 .five {
     background-color: #6E7059;
     color: white;
 }
+.seven {
+    background-color: #000;
+    color: #FFF;
+}
+
 footer {
     color: dimgrey;
     text-align: center;
@@ -258,3 +321,14 @@ footer {
     height: 3em;
 }
 
+@media screen and (max-width: 770px) {
+    nav {
+        position: relative;
+    }
+}
+
+
+/* Center img:
+    display: block;
+    margin: 0 auto;
+*/
